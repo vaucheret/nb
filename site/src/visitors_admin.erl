@@ -60,7 +60,7 @@ time_option(T={H,0,0}) when H > 12 ->
 
 
 parse_date(Date) ->
-    [M,D,Y] = re:split(Date,"/",[{return,list}]),
+    [D,M,Y] = re:split(Date,"/",[{return,list}]),
     {
 	wf:to_integer(Y),
 	wf:to_integer(M),

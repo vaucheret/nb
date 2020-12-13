@@ -71,3 +71,7 @@ li.associates {
     margin-top: 0,2em;
     margin-bottom: 0.2em;
 }
+
+li.visitors, li.associates {
+    list-style-type: none;
+}
